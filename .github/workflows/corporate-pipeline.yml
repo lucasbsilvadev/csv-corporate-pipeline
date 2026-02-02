@@ -118,7 +118,7 @@ jobs:
       
       - name: Simulate deploy to staging
         run: |
-          echo "🚀 Simulating deployment to staging environment"
+          echo "Simulating deployment to staging environment"
           echo "Image: csv-corporate-pipeline:latest"
           echo "Port: 8080"
           echo "Health check: /api/v1/health"

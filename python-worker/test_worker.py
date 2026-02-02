@@ -22,7 +22,6 @@ class TestCsvProcessor(unittest.TestCase):
         self.assertEqual(result["status"], "success")
         self.assertTrue(os.path.exists(self.processor.output_path))
         
-        # Verifica conteúdo
         df = pd.read_csv(self.processor.output_path)
         self.assertIn('total', df.columns)
         self.assertIn('processed_at', df.columns)
