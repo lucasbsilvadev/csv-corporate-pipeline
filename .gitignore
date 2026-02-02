@@ -1,0 +1,25 @@
+# Java
+target/
+*.jar
+*.war
+*.ear
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+*.csv
+!python-worker/data/input.csv
+
+# Docker
+*.log
+
+# credentials & secrets
+
+.application.properties
