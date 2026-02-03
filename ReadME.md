@@ -1,4 +1,4 @@
-# 📊 CSV Processing Corporate Pipeline
+# CSV Processing Corporate Pipeline
 
 **Enterprise-grade data processing pipeline with Java, Python, and full CI/CD**
 
@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11-green)](https://python.org)
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-brightgreen)](https://spring.io)
 
-## 🏗 Architecture
+## Architecture
 
 ```mermaid
 graph TB
@@ -21,14 +21,3 @@ graph TB
     H[GitHub Actions] --> I[Build & Test]
     I --> J[Docker Build]
     J --> K[Deploy Simulation]
-
-    Try it yourself:
-
-# 1. Clone repository
-git clone https://github.com/bsilvalucasdev/csv-corporate-pipeline.git
-
-# 2. Start with Docker Compose
-docker-compose up -d
-
-# 3. Access API
-curl http://localhost:8080/api/v1/health
